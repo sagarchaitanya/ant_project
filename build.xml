@@ -11,8 +11,7 @@
                 <jar destfile="dist/Gspann.jar" basedir="build/classes" />
         </target>
         <target name="execute" depends="compile">
-                <java classname="com.vaannnila.helloworld.HelloWorld" classpa
-th="build/classes" />
+                <java classname="com.vaannnila.helloworld.HelloWorld" classpath="build/classes" />
         </target>
         <target name="clean">
                 <delete dir="build" />
